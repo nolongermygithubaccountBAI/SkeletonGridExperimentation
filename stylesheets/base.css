@@ -65,8 +65,8 @@
 		font-weight: 400; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; font-weight: 100;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; font-weight: 700;}
+	h3 { font-size: 22px; line-height: 34px; margin-bottom: 8px; font-weight: 400;}
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; font-weight: 700;}
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
@@ -124,8 +124,8 @@
 	/* General button style (reset) */
 	.btn {
 		border: none;
-		font-family: inherit;
-		font-size: inherit;
+		font-family: "proxima-nova";
+		font-size: 18px;
 		color: inherit;
 		background: none;
 		cursor: pointer;
@@ -133,7 +133,7 @@
 		display: inline-block;
 		margin: 15px 30px;
 		text-transform: uppercase;
-		letter-spacing: 1px;
+		letter-spacing: 0px;
 		font-weight: 700;
 		outline: none;
 		position: relative;
