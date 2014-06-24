@@ -19,23 +19,28 @@
 	body {
 		background: #fff;
 		font: 16px/27px "adelle",serif;
-		color: #555;
+		color: #999999;
 	}
  
 	 h1, h2, h3, h4, h5, h6 {	color:#555;
 	}
   
-	 .full { width:100%;}
+    .full { width:100%;}
 	.pad50 {padding-top: 75px; padding-bottom: 75px;}
-	.padtop {padding-top: 75px; padding-bottom: 0px; margin-bottom: 0px;}
-	 .dark { background-color: #121519; }
-	 .grey { background-color: #eff2f6; }
-	 .mint {background-color: #00cc99;}
-	 .center-title h2 { margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 550px; border-bottom: 3px solid #1e1e1e;}
-	 .center-title {text-align: center; margin-bottom: 25px;}
-	 .center-title-white {text-align: center; margin-bottom: 25px; color: #fff;}
-	  .center-title-white h2 {color: #fff; margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 550px; border-bottom: 3px solid #fff;}
-	 .bottom {margin-bottom: 0px; padding-bottom: 0px; vertical-align: middle;}
+    .padtop {padding-top: 75px; padding-bottom: 0px; margin-bottom: 0px;}
+    .dark { background-color: #121519; }
+    .grey { background-color: #eff2f6; }
+    .mint {background-color: #00cc99;}
+    .usaa {background-color: #4687b6;}
+    .werthers {background-color: #eaa736;}
+    .horizon {background-color: #ef262c;}
+    .center-title h2 { margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 600px; border-bottom: 1px solid #999999;}
+    .center-title {text-align: center; margin-bottom: 25px;}
+    .center-title-white {text-align: center; margin-bottom: 25px; color: #fff;}
+    .title-white {text-align: left; margin-bottom: 25px; color: #fff; }
+    .title-white h2 {color: #fff; margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 600px; border-bottom: 1px solid #fff;}
+    .center-title-white h2 {color: #fff; margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 600px; border-bottom: 1px solid #fff;}
+    .bottom {margin-bottom: 0px; padding-bottom: 0px; vertical-align: middle;}
 
 /* #Page Styles
 ================================================== */
@@ -47,30 +52,6 @@ header {
 	background-position: 50% 0px;
 }
 
-#logo {
-text-indent: -3333px;
-background-image: url("http://2014.austinredd.com/wp-content/uploads/2014/05/Redd-Logo-04.png");
-background-repeat: no-repeat;
-width: 111px;
-height: 40px;
-border: 0;
-margin-top: 75px;
-}
-
-.main-title {
-	text-align: center;
-	margin-top: 150px;
-}
-
-.main-title h1 {
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	background-color: rgba(255,255,255,0.8);
-	margin: 0 auto;
-	width: 500px;
-}
 
 footer {
 	height: 70px;
@@ -141,15 +122,16 @@ footer {
 
 /* Button 1 */
 	.btn-1 {
-		border: 3px solid #1e1e1e;
-		color: #1e1e1e;
+		border: 3px solid #ffffff;
+		color: #ffffff;
 	}
 
 /* Button 1a */
 	.btn-1a:hover,
 	.btn-1a:active {
-		color: #ffffff;
-		background: #f05442;
+        border: 3px solid #093d60;
+		color: #4687b6;
+		background: #ffffff;
 	}
 
 	/* Button 1b */
@@ -334,3 +316,5 @@ footer {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+
