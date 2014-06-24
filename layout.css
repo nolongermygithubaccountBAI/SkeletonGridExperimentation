@@ -41,17 +41,36 @@
     .title-white h2 {color: #fff; margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 600px; border-bottom: 1px solid #fff;}
     .center-title-white h2 {color: #fff; margin: 0 auto 20px auto; text-transform: uppercase; letter-spacing: 2px; padding-bottom: 20px; width: 600px; border-bottom: 1px solid #fff;}
     .bottom {margin-bottom: 0px; padding-bottom: 0px; vertical-align: middle;}
+    .rmns {background-color: #c0e9ea;}
+        
 
 /* #Page Styles
 ================================================== */
 
 header {
 	height: 545px;
-	background-image: url('header.jpg');
+	background-image: url('img/header.jpg');
 	background-size: 1920px;
 	background-position: 50% 0px;
 }
 
+	#logo {
+		text-indent:-3333px;
+		background-image: url("http://2014.austinredd.com/wp-content/uploads/2014/05/Redd-Logo-04.png");
+		background-repeat:no-repeat;
+
+		border:0;
+		margin-top:5px;
+	}
+
+	
+	#logo a {
+		    display: block;
+		    width: 120px; /* larger than actual image? */
+		    height: 60px;
+		    text-decoration: none;
+		    border: 0;
+	}
 
 footer {
 	height: 70px;
@@ -75,12 +94,14 @@ footer {
 		text-decoration: none;
 		text-shadow: 0 0 1px rgba(255,255,255,0.3);
 		font: 16px/26px "proxima-nova",sans-serif;
+        color: #40bb93;
 	}
 
 
 	nav a:hover,
 	nav a:focus {
 		outline: none;
+        color: #40bb93;
 	}
 
 /* Effect 1: Brackets */
